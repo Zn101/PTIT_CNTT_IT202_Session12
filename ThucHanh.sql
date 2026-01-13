@@ -138,6 +138,8 @@ END $$
 
 DELIMITER ;
 
+CALL GetStudentsIT(C00001);
+
 
 
 
