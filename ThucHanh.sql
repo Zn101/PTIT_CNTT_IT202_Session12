@@ -131,7 +131,7 @@ s.FullName,
 e.Score
 FROM Student s
 JOIN Enrollment e ON s.StudentID = e.StudentID
-WHERE e.CourseID = @p_CourseID
+WHERE e.CourseID = p_CourseID
 ORDER BY Score DESC
 LIMIT 1;
 END $$
